@@ -28,11 +28,11 @@ const siteProps = {
   title: "Community Leader",
   email: "immr@duck.com",
   gitHub: "ImmrBhattarai",
-  instagram: "ImmrBhattarai",
-  linkedIn: "SurajBhattarai",
+  instagram: "Immr_Bhattarai",
+  linkedIn: "immrbhattarai",
   medium: "",
   twitter: "Immr_Bhattarai",
-  youTube: "Exord.Learning",
+  youTube: "extraordinarylearning",
 };
 
 const primaryColor = "#4E567E";
