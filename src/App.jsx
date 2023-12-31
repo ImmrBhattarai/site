@@ -25,13 +25,13 @@ import "./styles.css";
  */
 const siteProps = {
   name: "Suraj Bhattarai",
-  title: "Community Developer",
+  title: "Community Leader",
   email: "immr@duck.com",
   gitHub: "ImmrBhattarai",
   instagram: "ImmrBhattarai",
   linkedIn: "SurajBhattarai",
   medium: "",
-  twitter: "Immr_Bhattara",
+  twitter: "Immr_Bhattarai",
   youTube: "Exord.Learning",
 };
 
