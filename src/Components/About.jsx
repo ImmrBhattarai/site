@@ -35,7 +35,7 @@ const skillsList = [
   "AI/ML Aspirant",
   "Robotics Trainer",
   "Canva Tutor",
-  "PR & Outreach Expert",
+  "Outreach Expert",
   "Graphics Designer",
   "Content Writer",
 
