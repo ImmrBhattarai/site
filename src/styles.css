@@ -12,11 +12,9 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
-
-}
-
-html {
+  /* add a smooth scroll */
   scroll-behavior: smooth;
+
 }
 
 /*animate the scroll down arrow in Home component to bounce up and down on my page.*/

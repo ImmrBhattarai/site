@@ -32,10 +32,10 @@ const description =
  */
 const skillsList = [
 
-  "AI Aspirant",
-  "Robotics",
+  "AI/ML Aspirant",
+  "Robotics Trainer",
   "Canva Tutor",
-  "Outreach",
+  "Outreach Expert",
   "Graphics Designer",
   "Content Writer",
 
