@@ -38,20 +38,17 @@ const projectList = [
   },
   {
     title: "Learn more about me as an individual",
-    description:
-      "A community builder, passonate of growth and development.",
+    description: "A community builder, passonate of growth and development.",
     url: "https://bhattaraisuraj.com.np/",
   },
   {
     title: "Learn more about me as a developer",
-    description:
-      "A systemadmin learning indepth on SaaS, IaaS and PaaS technologies.",
+    description: "A systemadmin learning indepth on SaaS, IaaS and PaaS technologies.",
     url: "https://github.com/ImmrBhattarai",
   },
   {
     title: "Learn more about me as a teacher",
-    description:
-      "A academic enthusiast who is also a CS50x Nepal instructor",
+    description: "A academic enthusiast who is also a CS50x Nepal instructor",
     url: "https://cs50xnepal.ioepc.edu.np",
   },
 ];
@@ -64,7 +61,12 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover", animation: "1s ease-out 0s 1 slideIn" }}
+            style={{
+              height: "90%",
+              width: "100%",
+              objectFit: "cover",
+              animation: "1s ease-out 0s 1 slideIn",
+            }}
             alt={imageAltText}
           />
         </div>
