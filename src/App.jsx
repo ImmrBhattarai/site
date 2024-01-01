@@ -5,14 +5,12 @@
  */
 
 import React from "react";
-
+import Education from "./Components/Education";
 import About from "./Components/About";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import Home from "./Components/Home";
 import Portfolio from "./Components/Portfolio";
-import Education from "./Components/Education";
-
 
 import "./styles.css";
 
