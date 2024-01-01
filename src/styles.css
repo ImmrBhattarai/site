@@ -154,19 +154,577 @@ img.socialIcon {
   }
 }
 
-/*animate the scroll down arrow in Home component to bounce up and down on homepage.*/
-@keyframes bounce {
-  0%,
-  20%,
-  50%,
-  80%,
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInBottom {
+  0% {
+    transform: translateY(100%);
+  }
   100% {
     transform: translateY(0);
   }
-  40% {
-    transform: translateY(-20px);
+}
+
+@keyframes slideInTop {
+  0% {
+    transform: translateY(-100%);
   }
-  60% {
-    transform: translateY(-10px);
+  100% {
+    transform: translateY(0);
   }
+}
+
+@keyframes slideOutLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes slideOutRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slideOutBottom {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes slideOutTop {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+.slideInLeft {
+  animation: 0.5s ease-out 0s 1 slideInLeft;
+}
+
+.slideInRight {
+  animation: 0.5s ease-out 0s 1 slideInRight;
+}
+
+.slideInBottom {
+  animation: 0.5s ease-out 0s 1 slideInBottom;
+}
+
+.slideInTop {
+  animation: 0.5s ease-out 0s 1 slideInTop;
+}
+
+.slideOutLeft {
+  animation: 0.5s ease-out 0s 1 slideOutLeft;
+}
+
+.slideOutRight {
+  animation: 0.5s ease-out 0s 1 slideOutRight;
+}
+
+.slideOutBottom {
+  animation: 0.5s ease-out 0s 1 slideOutBottom;
+}
+
+.slideOutTop {
+  animation: 0.5s ease-out 0s 1 slideOutTop;
+}
+
+/* Path: src/components/About.js */
+/**
+* CSS file to hold styles for the About component
+*/
+
+div#about {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+div#about h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+div#about h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+div#about p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+div#about p.large {
+  font-size: 24px;
+}
+
+div#about p.small {
+  font-size: 15px;
+}
+
+div#about hr {
+  margin: 2.5rem;
+}
+
+div#about li {
+  line-height: 1.7;
+}
+
+div#about li::marker {
+  color: #4e567e;
+}
+
+div#about a {
+  color: black;
+  text-decoration: none;
+}
+
+div#about a:hover {
+  color: #4e567e;
+}
+
+/* Path: src/components/Contact.js */
+/**
+* CSS file to hold styles for the Contact component
+*/
+
+div#contact {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+div#contact h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+div#contact h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+div#contact p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+div#contact p.large {
+  font-size: 24px;
+}
+
+div#contact p.small {
+  font-size: 15px;
+}
+
+div#contact hr {
+  margin: 2.5rem;
+}
+
+div#contact li {
+  line-height: 1.7;
+}
+
+
+div#contact li::marker {
+  color: #4e567e;
+}
+
+div#contact a {
+  color: black;
+  text-decoration: none;
+}
+
+div#contact a:hover {
+  color: #4e567e;
+}
+
+/* Path: src/components/Footer.js */
+
+div#footer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+div#footer h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+div#footer h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+div#footer p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+div#footer p.large {
+  font-size: 24px;
+}
+
+div#footer p.small {
+  font-size: 15px;
+}
+
+div#footer hr {
+  margin: 2.5rem;
+}
+
+div#footer li {
+  line-height: 1.7;
+}
+
+div#footer li::marker {
+  color: #4e567e;
+}
+
+div#footer a {
+  color: black;
+  text-decoration: none;
+}
+
+div#footer a:hover {
+  color: #4e567e;
+}
+
+/* Path: src/components/Home.js */  
+/** 
+* CSS file to hold styles for the Home component
+*/
+
+div#home {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+div#home h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+div#home h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+div#home p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+div#home p.large {
+  font-size: 24px;
+}
+
+div#home p.small {
+  font-size: 15px;
+}
+
+div#home hr {
+  margin: 2.5rem;
+}
+
+div#home li {
+  line-height: 1.7;
+}
+
+div#home li::marker {
+  color: #4e567e;
+}
+
+div#home a {
+  color: black;
+  text-decoration: none;
+}
+
+div#home a:hover {
+  color: #4e567e;
+}
+
+/* Path: src/components/Navbar.js */
+/**
+* CSS file to hold styles for the Navbar component
+*/
+
+div#navbar {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+div#navbar a {
+  color: black;
+  text-decoration: none;
+}
+
+div#navbar a:hover {
+  color: #4e567e;
+}
+
+div#navbar ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+div#navbar ul li {
+  margin: 0 1rem;
+}
+
+div#navbar ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+div#navbar ul li a:hover {
+  color: #4e567e;
+}
+
+/* Path: src/components/Portfolio.js */
+/**
+* CSS file to hold styles for the Portfolio component
+*/
+
+div#portfolio {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+div#portfolio h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+div#portfolio h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+div#portfolio p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+div#portfolio p.large {
+  font-size: 24px;
+}
+
+div#portfolio p.small {
+  font-size: 15px;
+}
+
+div#portfolio hr {
+  margin: 2.5rem;
+}
+
+div#portfolio li {
+  line-height: 1.7;
+}
+
+div#portfolio li::marker {
+  color: #4e567e;
+}
+
+div#portfolio a {
+  color: black;
+  text-decoration: none;
+}
+
+div#portfolio a:hover {
+  color: #4e567e;
+}
+
+/* Path: src/components/Resume.js */
+/**
+* CSS file to hold styles for the Resume component
+*/
+
+div#resume {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+div#resume h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+div#resume h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+div#resume p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+div#resume p.large {
+  font-size: 24px;
+}
+
+div#resume p.small {
+  font-size: 15px;
+}
+
+div#resume hr {
+  margin: 2.5rem;
+}
+
+div#resume li {
+  line-height: 1.7;
+}
+
+div#resume li::marker {
+  color: #4e567e;
+}
+
+div#resume a {
+  color: black;
+  text-decoration: none;
+}
+
+div#resume a:hover {
+  color: #4e567e;
+}
+
+/* Path: src/components/Work.js */
+/**
+* CSS file to hold styles for the Work component
+*/
+
+div#work {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 0;
+}
+
+div#work h1 {
+  font-size: 4rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+div#work h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 1rem;
+}
+
+div#work p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+
+div#work p.large {
+  font-size: 24px;
+}
+
+div#work p.small {
+  font-size: 15px;
+}
+
+div#work hr {
+  margin: 2.5rem;
+}
+
+div#work li {
+  line-height: 1.7;
+}
+
+div#work li::marker {
+  color: #4e567e;
+}
+
+div#work a {
+  color: black;
+  text-decoration: none;
+}
+
+div#work a:hover {
+  color: #4e567e;
 }
