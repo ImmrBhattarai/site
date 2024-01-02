@@ -9,14 +9,16 @@ const Education = () => {
   return (
     <section className="min-height" id="education">
       <img className="background" src={image} alt="" />
+
+
       <div style={{
         position: "absolute",
-        top: "5rem",
-        left: "2rem",
-        width: "17rem",
+        top: "50%",
+        left: "50%",
+        width: "auto",
         color: "azure"
-        }}>
-        <h3>Engineering Student</h3>
+      }}>
+        <h1>Engineering Student</h1>
       </div>
     </section>
   );
